@@ -1,0 +1,7 @@
+configuration:
+    projectName: configclient
+server:
+    port: 8000
+message:
+    greeting: Test Greeting
+
