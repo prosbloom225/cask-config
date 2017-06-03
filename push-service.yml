@@ -4,6 +4,7 @@ cask:
     push:
         configuration:
             projectName: cask
+            serviceName: push-service
     google:
         domain: osieckim.com
         maxRetries: 10
