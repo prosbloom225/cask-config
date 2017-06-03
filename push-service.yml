@@ -1,14 +1,15 @@
-configuration:
-    projectName: cask
-server:
-    port: 8000
-google:
-    push:
-        domain: osieckim.com
-        maxRetries: 10
-        clientEmail: testEmail@osieckim.com
-        adminEmail: michael@osieckim.com
-        certLocation: /opt/cask/private/push_service_key.json
-        channel:
-            address: https://cask.osieckim.com/push_service/notify
-            type: web_hook
+cask:
+    configuration:
+        projectName: cask
+    server:
+        port: 8000
+    google:
+        push:
+            domain: osieckim.com
+            maxRetries: 10
+            clientEmail: testEmail@osieckim.com
+            adminEmail: michael@osieckim.com
+            certLocation: /opt/cask/private/push_service_key.json
+            channel:
+                address: https://cask.osieckim.com/push_service/notify
+                type: web_hook
