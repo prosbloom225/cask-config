@@ -1,9 +1,9 @@
+server:
+    port: 8000
 cask:
     push:
         configuration:
             projectName: cask
-        server:
-            port: 8000
     google:
         domain: osieckim.com
         maxRetries: 10
