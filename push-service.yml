@@ -1,10 +1,10 @@
 cask:
-    configuration:
-        projectName: cask
-    server:
-        port: 8000
-    google:
-        push:
+    push:
+        configuration:
+            projectName: cask
+        server:
+            port: 8000
+        google:
             domain: osieckim.com
             maxRetries: 10
             clientEmail: testEmail@osieckim.com
